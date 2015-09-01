@@ -1,0 +1,2 @@
+---
+- template: src=ip_whitelist.j2 dest=/etc/nginx/conf.d/ip_whitelist owner="{{ nginx_whitelist_owner | default("www-data") }}" mode=0644
